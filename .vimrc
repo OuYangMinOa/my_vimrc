@@ -60,7 +60,7 @@ set termguicolors
 "let g:tokyonight_style = 'night' " available: night, storm
 "let g:tokyonight_enable_italic = 1
 
-colorscheme codedark
+silent! colorscheme codedark
 
 
 " 在 preview 右側顯示行號及高亮
