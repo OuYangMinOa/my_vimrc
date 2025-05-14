@@ -17,6 +17,7 @@ let &t_SI = "\033[5 q" " INSERT  |
 call plug#begin()
 Plug 'tomasiser/vim-code-dark'
 Plug 'tpope/vim-sensible'
+Plug 'junegunn/vim-easy-align'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 call plug#end()
@@ -61,7 +62,6 @@ set termguicolors
 "let g:tokyonight_enable_italic = 1
 
 silent! colorscheme codedark
-
 
 " 在 preview 右側顯示行號及高亮
 let g:fzf_preview_window = ['right:50%', 'ctrl-/']
